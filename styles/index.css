@@ -2,16 +2,15 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+
 }
 .top-header {
   text-align: center;
 }
 body {
   line-height: 1;
-  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #666;
+  color: Black;
+  font-family: sans-serif;
   height: 100%;
   width: 100%;
   background:#cc5500;
