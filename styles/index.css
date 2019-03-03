@@ -31,7 +31,7 @@ table, th, td {
    width:250px;
    position:relative;
    left: 250px;
-   z-index: 1
+   z-index: 1;
  }
  .Crest
   {  height:200px;
