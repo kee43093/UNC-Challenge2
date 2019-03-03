@@ -18,22 +18,22 @@ table, th, td {
   font-family: Arial, sans-serif;
   text-align: center;
 }
- .Track {
+
+ .USC{
    height:200px;
    width:200px;
    position:relative;
+ }
 
-
+.Track {
+   height:200px;
+   width:200px;
+   position:relative;
 }
 
-
-  .Crest {
+ .Crest {
     height:200px;
     width:200px;
     position: relative;
-    right:50px
-    left:50px;
-    top:50px;
-    bottom:50px;
     float: right;
   }
