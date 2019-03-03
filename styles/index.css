@@ -29,15 +29,13 @@ table, th, td {
 .Track {
    height:200px;
    width:200px;
-   position:relative;
-}
-
- .Crest {
-    height:200px;
+ }
+ .Crest
+  {  height:200px;
     width:200px;
     position: relative;
+    right:25px;
     float: right;
+    display: inline-block;
+
   }
-   .links{
-     
-   }
