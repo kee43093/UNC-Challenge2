@@ -6,6 +6,7 @@ html, body {
 }
 .top-header {
   text-align: center;
+
 }
 body {
   line-height: 1;
@@ -19,7 +20,7 @@ table, th, td {
   text-align: center;
 }
 
- .USC{
+ .USC {
    height:200px;
    width:200px;
    position:relative;
@@ -37,3 +38,6 @@ table, th, td {
     position: relative;
     float: right;
   }
+   .links{
+     
+   }
