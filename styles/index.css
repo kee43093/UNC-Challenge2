@@ -1,22 +1,32 @@
-
-* {
+html, body {
   margin: 0;
-  padding: 0;
+  padding:0;
+}
 
 }
 .top-header {
   text-align: center;
 }
 body {
+  background-image:url("C:/Users/Bridgette/Desktop/Landing-page/images/alienware.jpg");
   line-height: 1;
-  color: Black;
+
   font-family: sans-serif;
-  height: 100%;
-  width: 100%;
-  background:#cc5500;
+
 }
+
 table, th, td {
   border: 1px solid black;
   font-family: Arial, sans-serif;
   text-align: center;
 }
+ .Track {
+   height:200px;
+   width:200px;
+   align:right;
+}
+
+  .crest {
+    height:200px;
+    width:200px;
+  }
