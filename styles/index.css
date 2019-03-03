@@ -27,8 +27,11 @@ table, th, td {
  }
 
 .Track {
-   height:200px;
-   width:200px;
+   height:250px;
+   width:250px;
+   position:relative;
+   left: 250px;
+   z-index: 1
  }
  .Crest
   {  height:200px;
