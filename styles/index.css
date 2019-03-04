@@ -3,16 +3,13 @@ html, body {
   padding:0;
 }
 
-}
 .top-header {
   text-align: center;
-
 }
 
 body {
   line-height: 1;
   font-family: sans-serif;
-
 }
 
 table, th, td {
@@ -43,4 +40,8 @@ table, th, td {
     float: right;
     display: inline-block;
 
+  }
+
+ footer {
+    font-weight: 100;
   }
