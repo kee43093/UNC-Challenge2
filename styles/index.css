@@ -9,6 +9,7 @@
  p{
    font-family: sans-serif;
    line-height: 1;
+   overflow: 
  }
 
 body {
@@ -43,6 +44,7 @@ table, th, td {
     right:25px;
     float: right;
     display: inline-block;
+    overflow: scroll;
 
   }
 
@@ -55,5 +57,5 @@ table, th, td {
   }
 
   .about.list{
-    
+
   }
