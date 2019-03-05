@@ -6,6 +6,11 @@
 .top-header {
   text-align: center;
 }
+ p{
+   font-family: sans-serif;
+   line-height: 1;
+   
+ }
 
 body {
   line-height: 1;
