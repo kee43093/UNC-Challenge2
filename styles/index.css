@@ -9,7 +9,6 @@
  p{
    font-family: sans-serif;
    line-height: 1;
-   
  }
 
 body {
@@ -53,4 +52,8 @@ table, th, td {
 
  footer {
     font-weight: 100;
+  }
+
+  .about.list{
+    
   }
