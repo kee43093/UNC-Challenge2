@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-family: cursive;
   text-align: center;
@@ -13,6 +18,5 @@ title {
   }
 
  .Soco{
-  top: 200px;
   float: right;
  }
