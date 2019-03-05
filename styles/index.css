@@ -9,11 +9,11 @@
  p{
    font-family: sans-serif;
    line-height: 1;
-   overflow: scroll;
+   overflow: visible;
  }
 
 body {
-  line-height: 1;
+  background-color: #696969;
   font-family: sans-serif;
 }
 
@@ -44,7 +44,7 @@ table, th, td {
     right:25px;
     float: right;
     display: inline-block;
-    overflow: scroll;
+    overflow: visible;
 
   }
 
