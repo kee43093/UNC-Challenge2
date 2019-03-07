@@ -15,8 +15,10 @@ title {
 
  .chemical {
    text-align: center;
+   left:50px;
   }
 
- .Soco{
+ .Soco {
   float: right;
+  bottom: 200px;
  }

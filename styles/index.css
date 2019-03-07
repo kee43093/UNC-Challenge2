@@ -21,6 +21,7 @@ table, th, td {
   border: 1px solid black;
   font-family: Arial, sans-serif;
   text-align: center;
+
 }
 
  .USC {
@@ -34,7 +35,7 @@ table, th, td {
    height:210px;
    width:240px;
    position:relative;
-   left: 250px;
+   left: 210px;
    z-index: 1;
  }
  .Crest
@@ -51,9 +52,7 @@ table, th, td {
    .bio {
 
    }
- .Results {
-   text-align: center;
- }
+
 
  footer {
     font-weight: 100;
