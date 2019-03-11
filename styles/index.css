@@ -15,8 +15,11 @@
    overflow: visible;
  }
 
-body {
+.grid {
   display: grid;
+  width: 1000px;
+  height: 500px;
+  grid-column: 200px, 300px;
   background-color: #696969;
   font-family: sans-serif;
 }
