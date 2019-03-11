@@ -22,7 +22,6 @@
   width: 1000px;
   height: 600px;
   grid-template-columns: 50%, 50%, 60% / 50%, 60%, 600px;
-
   background-color: #696969;
   font-family: sans-serif;
 }
@@ -38,6 +37,7 @@ table, th, td {
    height:200px;
    width:200px;
    position:relative;
+   height:auto;
 
  }
 
