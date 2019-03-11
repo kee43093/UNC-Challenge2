@@ -20,6 +20,7 @@
   width: 1000px;
   height: 500px;
   grid-column: 200px, 300px;
+  grid-row: 10% 20% 600px;
   background-color: #696969;
   font-family: sans-serif;
 }
