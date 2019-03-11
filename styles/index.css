@@ -6,7 +6,8 @@
 .top-header {
   text-align: center;
 }
- p{
+ p {
+   word-spacing: 0.3em;
    font-family: sans-serif;
    line-height: 1;
    overflow: visible;
@@ -56,6 +57,7 @@ table, th, td {
 
  footer {
     font-weight: 100;
+
   }
 
   .about.list{
