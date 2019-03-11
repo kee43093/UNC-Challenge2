@@ -8,6 +8,7 @@
 }
  p {
    word-spacing: 0.3em;
+   letter-spacing: 0.3em;
    font-family: sans-serif;
    line-height: 1;
    overflow: visible;
