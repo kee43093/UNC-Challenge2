@@ -16,6 +16,7 @@
  }
 
 body {
+  display: grid;
   background-color: #696969;
   font-family: sans-serif;
 }
