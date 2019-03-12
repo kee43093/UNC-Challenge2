@@ -47,6 +47,7 @@ table, th, td {
    position:relative;
    left: 210px;
    z-index: 1;
+   height:auto;
  }
  .Crest
  {  height:210px;
