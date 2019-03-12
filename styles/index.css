@@ -34,10 +34,10 @@ table, th, td {
 }
 
  .USC {
-   height:200px;
+   height:180px;
    width:200px;
    position:relative;
-   height:auto;
+
 
  }
 
@@ -45,9 +45,8 @@ table, th, td {
    height:210px;
    width:240px;
    position:relative;
-   left: 210px;
+   left: 150px;
    z-index: 1;
-   height:auto;
  }
  .Crest
  {  height:210px;
