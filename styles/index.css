@@ -8,7 +8,8 @@
   text-align: center;
   font-size: 3em;
 }
- p {
+@media only screen and (max-width: 480px) {
+  p {
    word-spacing: 0.03em;
    letter-spacing: 0.03em;
    font-family: sans-serif;
@@ -16,8 +17,11 @@
    overflow: visible;
    font-size: 1em;
  }
+} 
+
 
 .grid {
+  font-size:1em;
   display: grid;
   width: 1000px;
   height: 500px;
