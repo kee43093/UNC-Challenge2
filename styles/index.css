@@ -73,9 +73,11 @@ table, th, td {
 
   }
 
-  .about.list{
-
+  .about-list{
+      text-align: center;
   }
+
+  
 
    .links {
      font-weight: 500;
