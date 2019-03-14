@@ -1,7 +1,4 @@
-* {
-  margin: 0;
-  padding:0;
-}
+
 
 .top-header {
   font-family:"Times New Roman", serif;
@@ -17,7 +14,7 @@
    overflow: visible;
    font-size: 1em;
  }
-} 
+}
 
 
 .grid {
