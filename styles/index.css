@@ -73,12 +73,12 @@ table, th, td {
 
   }
 
-  .about-list{
+  .about-list {
       text-align: center;
   }
 
-   .about-me-title{
-     
+   .about-header {
+     text-align: center;
    }
 
    .links {
