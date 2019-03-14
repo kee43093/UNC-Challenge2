@@ -35,7 +35,7 @@ table, th, td {
 }
 
  .USC {
-   height:180px;
+   height:190px;
    width:200px;
    position:relative;
 
@@ -50,8 +50,8 @@ table, th, td {
    z-index: 1;
  }
  .Crest
- {  height:210px;
-    width:210px;
+ {  height:190px;
+    width:200px;
     position: relative;
     right:25px;
     float: right;
