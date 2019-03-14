@@ -29,11 +29,11 @@
   grid-template-columns: 50%, 50%, 60% / 50%, 60%, 600px;
   background-image: url('C:/Users/Bridgette/Desktop/Landing-page/images/Deadspace.jpg');
   font-family: sans-serif;
-  color: GhostWhite;
+  color: lawngreen;
 }
 
 table, th, td {
-  border: 0.016em solid black;
+  border: 0.016em solid white;
   font-family: Arial, sans-serif;
   text-align: center;
 
