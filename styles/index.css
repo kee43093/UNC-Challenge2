@@ -52,7 +52,7 @@ table, th, td {
    width:245px;
    position:relative;
    z-index: 1;
-   float:right;
+   left: 500px;
    display:inline-block;
  }
  .Crest
@@ -67,7 +67,7 @@ table, th, td {
   }
 
   .default-pic {
-    float:right;
+
   }
 
 
