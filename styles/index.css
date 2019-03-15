@@ -49,10 +49,11 @@ table, th, td {
 
 .Track {
    height:185px;
-   width:245px;
+   width:270px;
    position:relative;
    z-index: 1;
-   left: 500px;
+   left: 700px;
+   bottom: 120px;
    display:inline-block;
  }
  .Crest
