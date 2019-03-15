@@ -43,7 +43,8 @@ table, th, td {
    height:183px;
    width:200px;
    position:relative;
-   
+   display: inline-block;
+
 
 
  }
