@@ -63,7 +63,7 @@ table, th, td {
     right:25px;
     float: right;
     display: inline-block;
-    overflow: visible;
+    overflow:hidden ;
 
   }
 
