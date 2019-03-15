@@ -51,13 +51,14 @@ table, th, td {
    height:185px;
    width:245px;
    position:relative;
-   left: 150px;
    z-index: 1;
+   float:right;
+   display:inline-block;
  }
  .Crest
  {  height:190px;
     width:200px;
-    position: relative;
+    position:relative;
     right:25px;
     float: right;
     display: inline-block;
@@ -66,7 +67,7 @@ table, th, td {
   }
 
   .default-pic {
-    text-align: center;
+    float:right;
   }
 
 
