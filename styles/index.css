@@ -48,12 +48,12 @@ table, th, td {
  }
 
 .Track {
-   height:185px;
-   width:270px;
+   height:200px;
+   width:350px;
    position:relative;
    z-index: 1;
-   left: 700px;
-   bottom: 120px;
+   left: 750px;
+   bottom: 190px;
    display:inline-block;
  }
  .Crest
