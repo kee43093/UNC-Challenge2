@@ -23,7 +23,7 @@
 
 
 .main-content {
-  font-size:1em;
+  font-size: 1em;
   width: 100%;
   background-image: url('C:/Users/Bridgette/Desktop/Landing-page/images/Deadspace.jpg');
   font-family: sans-serif;
@@ -34,7 +34,6 @@ table, th, td {
   border: 0.016em solid white;
   font-family: Arial, sans-serif;
   text-align: center;
-
 }
 
  .USC {
@@ -50,17 +49,17 @@ table, th, td {
    width: 250px;
    position: relative;
    z-index: 1;
-   display:inline-block;
+   display: inline-block;
    overflow: hidden;
  }
 
 
  .Crest {
     width:200;
-    position:relative;
+    position: relative;
     float: right;
     display: inline-block;
-    overflow:hidden;
+    overflow: hidden;
   }
 
   .default-pic {
