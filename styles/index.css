@@ -49,8 +49,7 @@ table, th, td {
  }
 
 .Track {
-   height:200px;
-   width:350px;
+   width:300;
    position:relative;
    float:right;
    z-index: 1;
