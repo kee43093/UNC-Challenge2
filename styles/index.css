@@ -50,10 +50,12 @@ table, th, td {
 .Track {
    height: 200px;
    width: 250px;
-   position:relative;
+   position: relative;
    z-index: 1;
    display:inline-block;
    overflow: hidden;
+   margin:auto;
+   padding:0;
  }
 
 
@@ -62,7 +64,7 @@ table, th, td {
     position:relative;
     float: right;
     display: inline-block;
-    overflow:hidden; 
+    overflow:hidden;
   }
 
   .default-pic {
