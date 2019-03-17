@@ -49,9 +49,9 @@ table, th, td {
  }
 
 .Track {
-   width:300;
+
+   width:300px;
    position:relative;
-   float:right;
    z-index: 1;
    display:inline-block;
    overflow: hidden;
@@ -59,7 +59,6 @@ table, th, td {
  .Crest
  {  width:200;
     position:relative;
-    right:25px;
     float: right;
     display: inline-block;
     overflow:hidden ;
