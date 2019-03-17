@@ -50,7 +50,7 @@ table, th, td {
 
 .Track {
 
-   width:300px;
+   width:250px;
    position:relative;
    z-index: 1;
    display:inline-block;
