@@ -23,7 +23,6 @@
 
 .main-content {
   font-size:1em;
-  display: grid;
   width: 1000px;
   height: 500px;
   grid-template-columns: 50%, 50%, 60% / 50%, 60%, 600px;
