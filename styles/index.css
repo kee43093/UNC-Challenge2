@@ -9,17 +9,6 @@
   font-size: 3em;
 }
 
-@media only screen and (max-width: 480px) {
-  .bio {
-   word-spacing: 0.03em;
-   letter-spacing: 0.03em;
-   font-family: sans-serif;
-   line-height: 1;
-   overflow: visible;
-   font-size: 1em;
-
- }
-}
 
  .background-img {
   background-image: url()
