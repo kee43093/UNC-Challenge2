@@ -36,14 +36,10 @@ body {
  }
 
 
-
-
  .main-nav-list {
   list-style-type: none;
   display: flex;
-  
-
- }
+  }
 
 
  .nav-list_item a {
@@ -52,8 +48,7 @@ body {
   Text-shadow: text-shadow: 2px 5px 3px #444;
   color: ghostwhite;
   word-spacing: 0.15em;
-  
- }
+  }
 
 /* Nav Style Section End */ 
 
