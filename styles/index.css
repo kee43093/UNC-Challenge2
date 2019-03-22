@@ -29,8 +29,10 @@ body {
 /* Nav Style Section Beginning */
 
  .main-nav {
+   position: absolute;
  }
- 
+
+
 
 
  .main-nav-list {
