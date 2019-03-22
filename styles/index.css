@@ -39,16 +39,17 @@ body {
  .main-nav-list {
   list-style-type: none;
   display: flex;
+  
 
-  
-  
  }
 
 
- .nav-list-item {
+ .nav-list_item a {
   text-decoration-style: none;  
   padding: 25px;
   Text-shadow: text-shadow: 2px 5px 3px #444;
+  
+  
  }
 
 /* Nav Style Section End */ 
