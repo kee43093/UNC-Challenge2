@@ -26,12 +26,12 @@ body {
 
 /* Nav Style Section Beginning */
 
- .main-nav{
+ .main-nav {
 
  }
 
- .about-list{
-   
+ .nav-list-item {
+    font-decoration:none;
  }
 
 .top-header {
