@@ -15,7 +15,7 @@ body {
 
 
  .background-img {
-    background-image: url(C:/Users/Bridgette/Desktop/Landing-page/images/aerial-aquatic.jpg)
+    background-image: url(../images/aerial-aquatic.jpg)
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
