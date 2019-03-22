@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css?family=Zeyada');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+.background-img {
+    background: url(../images/bg-img2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-content {
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+/* Navbar Section styles */
+
+.main-nav {
+    font-family: 'Roboto';
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    font-size: .8em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.main-nav_list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list-item a {
+    color: white;
+    text-shadow: 2px 5px 3px #444;
+    text-decoration: none;
+    padding-left: 25px;
+}
+
+.nav-list-item a:hover {
+    color: indianred;
+    transition: 1s;
+}
+
+/* Header Section styles */
+
+.main-header {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header-title {
+    font-family: 'Zeyada';
+    color: white;
+    font-size: 7em;
+    text-shadow: 2px 5px 3px #444;
+}
+
+.header-subtitle {
+    font-family: 'Roboto';
+    font-size: 1em;
+    color: white;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 5px 3px #444;
+    margin-top: -30px;
+}
+
+.header-button {
+    font-family: 'nunito-sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: transparent;
+    color: #A7E7D9;
+    border: 1px solid #A7E7D9;
+    margin-top: 35px;
+    transition-duration: 1s;
+}
+
+.header-button:hover {
+    background-color: #A7E7D9;
+    color: white;
+}
+/* About Me Section styles */
+
+.about-me {
+
+}
+
+.about-me_title {
+
+}
+
+.about-me_paragraph {
+
+}
