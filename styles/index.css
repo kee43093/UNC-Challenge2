@@ -22,7 +22,7 @@
 }
 
  .background-img {
-  background-image: url(C:/Users/Bridgette/Desktop/Landing-page/images/aerial-aquatic.jpg)
+  background-image: url()
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@
   font-size: 1em;
   width: 100%;
   font-family: sans-serif;
-  color: ghostwhite;
+  color: black;
   height: 100%;
 }
 
