@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Zeyada');
+
 *{
   margin: 0;
   padding: 0;
@@ -28,6 +30,8 @@ body {
 
  .main-nav {
  }
+ 
+
 
  .main-nav-list {
   list-style-type: none;
@@ -38,8 +42,8 @@ body {
 
 
  .nav-list-item {
-
     
+
  }
 
 /* Nav Style Section End */ 
