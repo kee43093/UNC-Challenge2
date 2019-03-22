@@ -7,22 +7,6 @@ body {
   height:100%;
 }
 
-.top-header {
-  font-family:"Times New Roman", serif;
-  text-align: center;
-  font-size: 3em;
-}
-
-
- .background-img {
-    background-image: url(../images/aerial-aquatic.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
- }
-
 .main-content {
   font-size: 1em;
   width: 100%;
@@ -30,6 +14,29 @@ body {
   color: black;
   height: 100%;
 }
+
+.background-img {
+  background-image: url(../images/aerial-aquatic.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Nav Style Section Beginning */
+
+ .main-nav{
+
+ }
+
+.top-header {
+  font-family:"Times New Roman", serif;
+  text-align: center;
+  font-size: 3em;
+}
+
+
 
 table, th, td {
   border: 0.016em solid black;
