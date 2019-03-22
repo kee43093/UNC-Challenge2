@@ -30,7 +30,8 @@ body {
  }
 
  .main-nav-list {
-   display: flex;
+  list-style-type: none;
+  display: flex;
  }
 
 
