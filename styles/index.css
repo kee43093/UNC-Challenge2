@@ -67,7 +67,8 @@ body {
   }
 
   .main-list {
-      text-align: center;
+      font-family:'Roboto';
+      display:flex
   }
 
    .about-header {
