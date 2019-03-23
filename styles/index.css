@@ -39,6 +39,7 @@ body {
  .main-nav-list {
   list-style-type: none;
   display: flex;
+  
   }
 
 
@@ -48,6 +49,7 @@ body {
   Text-shadow: text-shadow: 2px 5px 3px #444;
   color: ghostwhite;
   word-spacing: 0.15em;
+  
   }
 
 /* Nav Style Section End */ 
@@ -58,11 +60,12 @@ body {
   font-size: 3em;
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  
 
 }
 
