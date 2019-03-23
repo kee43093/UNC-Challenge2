@@ -62,7 +62,7 @@ body {
 
   .main-list {
       font-family:'Roboto';
-      display:flex;
+      
   }
   
   
@@ -72,4 +72,4 @@ body {
 
   .link_item {
      font-weight: 700;
-   }
+  }
