@@ -60,9 +60,8 @@ body {
 
 
 
-  .main-list {
-      font-family:'Roboto';
-      
+  .main-links {
+      display: flex;      
   }
   
   
