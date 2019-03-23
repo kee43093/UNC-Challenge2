@@ -56,13 +56,22 @@ body {
   font-family:"Roboto", serif;
   text-align: center;
   font-size: 3em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 
 }
 
 
 .main-links {    
 
+
 }
+
   
 footer {
     font-weight: 100;
