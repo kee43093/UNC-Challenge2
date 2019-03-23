@@ -1,0 +1,33 @@
+* {
+    margin:0
+    padding:0
+}
+table, th, td {
+  border: 0.016em solid black;
+  font-family: Arial, sans-serif;
+}
+
+ .USC {
+   height:183px;
+   width:200px;
+   position:relative;
+   display: inline-block;
+   overflow: hidden;
+}
+
+.Track {
+   height: 200px;
+   width: 250px;
+   position: relative;
+   z-index: 1;
+   display: inline-block;
+   overflow: hidden;
+ }
+
+
+ .Crest {
+    width:200;
+    position: relative;
+    float: right;
+    display: inline-block;
+    overflow: hidden;
