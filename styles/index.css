@@ -91,7 +91,15 @@ body {
    transform: translate(-50%, -50%);
    text-align: center;
    text-transform: uppercase;
+   font-family: 'Roboto';
+   color: #A7E7D9;
+   background-color: transparent;
   }
+
+ .header-button:hover {
+  background-color: #A7E7D9;
+  color: white;
+ }
 
 /* Header Style Section End */
 
