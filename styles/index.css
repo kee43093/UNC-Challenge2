@@ -67,7 +67,6 @@ body {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  
 }
 
  .header-button {
@@ -75,11 +74,11 @@ body {
    width: 150px;
  }
 
+/* Header Style Section End */
+
 .main-links {    
 
-
 }
-
   
 footer {
     font-weight: 100;
