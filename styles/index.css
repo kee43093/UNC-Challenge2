@@ -66,6 +66,7 @@ body {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  color: ghostwhite;
 }
 
 .default-pic {
