@@ -34,14 +34,12 @@ body {
    font-family: 'Roboto';
    font-size: 1.5 em;
   
-  
  }
 
 
  .main-nav-list {
   list-style-type: none;
   display: flex;
-  
   
   }
 
@@ -116,7 +114,9 @@ footer {
     font-weight: 100;
   }
 
-.link_item {
+.link_item a {
      font-weight: 700;
+     font-size: 4em;
+     display: 
   
   }
