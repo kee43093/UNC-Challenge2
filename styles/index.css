@@ -117,6 +117,6 @@ footer {
 .link_item a {
      font-weight: 700;
      font-size: 4em;
-     display: 
+     display: flex;
   
   }
