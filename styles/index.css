@@ -34,6 +34,7 @@ body {
    font-family: 'Roboto';
    font-size: 1.5 em;
   
+  
  }
 
 
@@ -51,6 +52,7 @@ body {
   Text-shadow: text-shadow: 2px 5px 3px #444;
   color: ghostwhite;
   word-spacing: 0.15em;
+  text-decoration: none;
   }
 
 /* Nav Style Section End */ 
