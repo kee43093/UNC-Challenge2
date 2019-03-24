@@ -108,6 +108,7 @@ body {
 
 .main-links {    
   display: flex;
+  position: absolute;
 }
   
 
