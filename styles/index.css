@@ -107,16 +107,17 @@ body {
 /* Header Style Section End */
 
 .main-links {    
-
+  display: flex;
 }
   
-footer {
-    font-weight: 100;
-  }
 
 .link_item a {
      font-weight: 700;
      font-size: 4em;
-     display: flex;
+    
   
+  }
+
+  footer {
+    font-weight: 100;
   }
