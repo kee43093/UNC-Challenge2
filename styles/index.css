@@ -32,7 +32,9 @@ body {
    position: absolute;
    top: 25px;
    font-family: 'Roboto';
-   font-size: 1.5 em;
+   font-size: 2 em;
+   Text-shadow: text-shadow: 2px 5px 3px #444;
+
   
  }
 
@@ -47,7 +49,6 @@ body {
  .nav-list_item a {
   text-decoration-style: none;  
   padding: 25px;
-  Text-shadow: text-shadow: 2px 5px 3px #444;
   color: ghostwhite;
   word-spacing: 0.15em;
   text-decoration: none;
