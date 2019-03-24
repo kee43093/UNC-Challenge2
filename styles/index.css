@@ -108,8 +108,10 @@ body {
 
 .main-links {    
   display: flex;
-  position: absolute;
+  position:  absolute;
   top: 70%;
+  text-align: center;
+  right: 38%;
 }
   
 
@@ -117,7 +119,8 @@ body {
      font-weight: 700;
      font-size: 4em;
      padding: 25px;
-     top : 70%;
+     top: 70%;
+     left: 50%;
   
   }
 
