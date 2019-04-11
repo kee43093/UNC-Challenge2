@@ -29,7 +29,7 @@
    <header>
       <h1 class="top-header">My Software Developing Process</h1>
       <img class = "default-pic" src="./images/profile.jpg" alt="Kendall Kee" />
-      <button class="header-button">Contact Me</button>
+      <button data-key="12" class="header-button">Contact Me</button>
    </header>
    
     <div class = "main-links">
@@ -56,15 +56,14 @@
 
 <script>
   const button = document.querySelector('.header-button');
+  const audio = document.querySelector('audio');
  
     
     button.onclick  = function changeColor() {
       button.style.color = 'blue';
       button.innerHTML = 'Thank you!';
-      
-    
-
-
+      audio.currentTime = 0;
+      audio.play();
     };
 
 
