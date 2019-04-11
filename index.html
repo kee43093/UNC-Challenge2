@@ -29,7 +29,7 @@
    <header>
       <h1 class="top-header">My Software Developing Process</h1>
       <img class = "default-pic" src="./images/profile.jpg" alt="Kendall Kee" />
-      <button class="header-button">Contact Me</button>
+      <button data-key="12" class="header-button">Contact Me</button>
    </header>
    
     <div class = "main-links">
@@ -45,6 +45,24 @@
     </div>
   </div>
 
+  <audio data-key="12" src="sounds/clap.wav"></audio>
+  <audio data-key="12" src="sounds/hihat.wav"></audio>
+  <audio data-key="12" src="sounds/kick.wav"></audio>
+
+
+
+
+
+
+
+<script>
+  document.getElementsByClassName('header-button').addEventListener('click', function(a){
+      const audio = doucment.querSelector(`.header-button[data-key="12"]`);
+
+
+  })
+
+</script>
 </body>
 
 
