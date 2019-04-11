@@ -56,11 +56,17 @@
 
 
 <script>
-  const button = document.getElementById('header-button');
+  let button = document.querySelector("header-button");
 
-  button.addEventListener('click', function (){
+    function turnButton(){
+      button.style.backgroundColor = 'red';
 
-  })
+    
+
+    button.onclick = turnButton;
+    };
+
+
 
 
 </script>
