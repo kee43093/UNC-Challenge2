@@ -56,12 +56,17 @@
 
 
 <script>
-  let button = document.querySelector('.header-button');
+  const button = document.querySelector('.header-button');
  
     
-    button.onclick = function() {
+    button.onclick  = function changeColor() {
       button.style.color = 'blue';
-      ;
+      button.innerHTML = 'Thank you!';
+      
+      setInterval('changeColor', 1000);
+    
+
+
     };
 
 
