@@ -125,7 +125,9 @@ body {
      padding: 25px;
      color: #A7E7D9;
      background-color: transparent;
-  
+     border: 1px solid white;
+    
+    
   }
 
   footer {
