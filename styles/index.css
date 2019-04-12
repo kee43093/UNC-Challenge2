@@ -112,8 +112,8 @@ body {
 
 .main-links {    
   display: flex;
-  position:  absolute;
-  top: 75%;
+  position: absolute;
+  top: 71%;
   text-align: center;
   right: 38%;
 }
