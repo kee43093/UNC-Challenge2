@@ -113,7 +113,7 @@ body {
 .main-links {    
   display: flex;
   position:  absolute;
-  top: 67%;
+  top: 75%;
   text-align: center;
   right: 38%;
 }
