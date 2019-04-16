@@ -48,16 +48,15 @@
         <div class="hand hour-hand"></div>
         <div class="hand min-hand"></div>
         <div class="hand second-hand"></div>
-        
-      
+    
         </div>
       </div>
     </div>
   
 
   
-  <audio data-key="12"  src="sounds/clap.wav"></audio>
-</div>
+    <audio data-key="12"  src="sounds/clap.wav"></audio>
+  </div>
   
 
   
@@ -68,7 +67,7 @@
 
 
 
-<script>
+  <script>
   const button = document.querySelector('.header-button');
   const audio = document.querySelector('audio');
   const icons = document.querySelectorAll('link_item a');
@@ -78,16 +77,13 @@
       button.style.color = 'blue';
       button.innerHTML = 'Thank you!';
       audio.currentTime = 0;
+      button.classList.add('flashing');
       audio.play();
     };
 
+  </script>
 
 
-
-
-
-
-</script>
 </body>
 
 

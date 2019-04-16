@@ -108,6 +108,8 @@ body {
 
 /* Header Style Section End */
 
+/*Links Styling Section Begining */
+
 .main-links {    
   display: flex;
   position: absolute;
@@ -123,6 +125,7 @@ body {
      padding: 25px;
      color: #A7E7D9;
      background-color: transparent;
+     border: 1px solid white;
      
   }
 
@@ -131,6 +134,8 @@ body {
     border-color: #ffc600;
     box-shadow: 0 0 1rem #ffc600;
 }
+
+/*End of Links Styling */
 
 
   footer {
