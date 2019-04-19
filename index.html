@@ -41,13 +41,14 @@
     <div class="main-footer">
       <footer>
       <span>Kendall Kee<i class="fas fa-copyright"></i> 2019</span>
-      </footer>
+      <audio data-key="12"  src="sounds/clap.wav"></audio>
+    </footer>
   
     </div>
   
 
   
-    <audio data-key="12"  src="sounds/clap.wav"></audio>
+    
   </div>
   
 
@@ -62,13 +63,12 @@
   <script>
   const button = document.querySelector('.header-button');
   const audio = document.querySelector('audio');
-  const icons = document.querySelectorAll('.link_item a');
+  const icons = document.querySelector('.main-links');
  
     
     button.onclick  = function changeColor() {
       button.style.color = 'blue';
       button.innerHTML = 'Thank you!';
-      button.classList.add('flashing');
       audio.play();
       audio.currentTime = 0;
       icons.classList.add('flashing');
