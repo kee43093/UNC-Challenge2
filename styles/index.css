@@ -127,8 +127,7 @@ body {
   
 
 .link_item  {
-     display: flex;
-     flex:1;
+     
      font-weight: 700;
      font-size: 4em;
      padding: 25px;
