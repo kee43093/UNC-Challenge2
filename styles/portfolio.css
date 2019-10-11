@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+
+
+.project_image {
+    background-image: url("/images/download.jpeg");
+    height:25vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.main_heading {
+    text-align: center;
+}
+
+.project_image2 {
+    background-image:url("");
+    height:25vh;
+    background-repeat: no-repeat;
+    
+}
+
+.project_image3 {
+    background-image:url("/images/Guessing\ Game.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+
+}
+
+.project_image4 {
+    background-image:url("/images/jssi1b.png");
+    height:25vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.project_image5 {
+    background-image:url("/");
+    height:25vh;
+    background-repeat: no-repeat;
+}
+
+.main-nav {
+    position: absolute;
+    top: 15px;
+    font-family: 'Roboto';
+    /* font-size: 2em; */
+    Text-shadow:2px 5px 3px #444;
+    width: 100%;
+
+ }
+ 
+ 
+  .main-nav-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+   }
+ 
+ 
+  .nav-list_item a {
+    text-decoration-style: none;  
+    padding: 25px;
+    color: ghostwhite;
+    word-spacing: 0.15em;
+    text-decoration: none;
+   }
+
+   .main_content {
+        padding-top: 5rem;
+        /* display: grid; */
+        /* grid-template-columns: 1fr 1fr; */
+   }
+
+    .project_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 6rem;
+    }
+
+    .main-links {    
+        display: flex;
+        position: absolute;
+        align-items: flex-end;
+        text-align: center;
+        right: 38%;
+        transition: all 0.5 ease;
+        top: 48rem;
+      }
+        
+      
+      .link_item  {
+           font-weight: 700;
+           font-size: 4em;
+           padding: 25px;
+           color: #A7E7D9;
+           background-color: transparent;
+           border: 1px solid white;
+           transition: all 0.05 ease-in;
+        
+        }
+      
+
+        .icons {
+            position: relative;
+            bottom: -7rem;
+            text-align: center;
+        }
+   
