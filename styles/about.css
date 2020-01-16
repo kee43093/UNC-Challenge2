@@ -45,7 +45,7 @@ body {
   background-size: cover;
   background-position: center;
   font-family: 'Roboto';
-  font-size: 1.25em;
+  font-size: 1em;
   Text-shadow:2px 5px 3px #444;
   height: 30vh;
 
@@ -55,6 +55,8 @@ body {
 .main-nav-list {
  list-style-type: none;
  display: flex;
+ position: relative;
+ top: 25px;
  
  }
 
