@@ -113,8 +113,8 @@
 .main-links {    
   display: flex;
   position: absolute;
-  right: 36%;
-  top: 53rem;
+  right: 40%;
+  top: 56rem;
 }
   
 
@@ -198,8 +198,8 @@ footer {
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
   .main-links {
-    right: 38%;
-    top: 50rem;
+    right: 40%;
+    top: 52rem
   }
 
   .main-footer {
