@@ -116,7 +116,6 @@ h1 {
     }
 .main-links {    
         display: flex;
-        position: absolute;
         align-items: flex-end;
         text-align: center;
         transition: all 0.5 ease;
@@ -141,8 +140,6 @@ h1 {
 }
       
  .icons { 
-    position: relative;
-   
     text-align: center;
 }
 
@@ -200,9 +197,6 @@ h1 {
 
     }
 
-    .icons {
-        bottom: -9rem;
-    }
 
 }
 
