@@ -93,10 +93,10 @@ body {
 
 .main-links {    
   display: flex;
-  position: absolute;
+  flex-direction: row;
+  margin-top: 30px;
   text-align: center;
   transition: all 0.5 ease;
-  bottom:-37rem;
   width: 100%;
   justify-content: center;
 }
@@ -119,8 +119,6 @@ body {
 
 
 .icons {
-      position: relative;
-      bottom: -10rem;
       text-align: center;
   }
 
