@@ -80,7 +80,7 @@ body {
  .table {
   position: relative;
   top: 3rem;
-  left: 36rem;
+  left: 41rem;
   font-size: 1.25rem;
 }
   
@@ -148,8 +148,8 @@ body {
     }
     
     .main-links {
-      top: 76rem;
-      right: 40%;
+      top: 3rem;
+      left: 36rem;
     }
   
   }
