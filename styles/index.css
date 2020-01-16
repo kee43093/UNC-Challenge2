@@ -118,13 +118,11 @@
 }
   
 
-.link_item  {
-     
-     font-weight: 700;
+.link_item  { 
+    font-weight: 700;
      font-size: 3em;
      padding: 25px;
      background-color: transparent;
-     border: 1px solid white;
      transition: all 0.05 ease-in;
 
 }
