@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
 }
+
 table, th, td {
   border: 0.016em solid white;
   font-family: Arial, sans-serif;
@@ -10,39 +11,44 @@ table, th, td {
 body {
   background:black;
   color: white;
+  height: 100%;
+  overflow-x: hidden;
 }
 
  .USC {
-   height:200px;
+   height: 25vh;
    width:200px;
    position:relative;
    display: inline-block;
-   overflow: hidden;
 }
 
 .Track {
-   height: 200px;
+   height: 20vh;
    width: 250px;
    position: relative;
    z-index: 1;
    display: inline-block;
-   overflow: hidden;
+   
  }
 
 
  .Crest {
-    width:200;
     position: relative;
     display: inline-block;
-    overflow: hidden;
+    height: 20vh;
+
+  
  }
 
  .main-nav {
-  position: absolute;
-  top: 25px;
+  background-image:url("/images/braden-collum-9HI8UJMSdZA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
   font-family: 'Roboto';
-  font-size: 2 em;
+  font-size: 1.25em;
   Text-shadow:2px 5px 3px #444;
+  height: 30vh;
+
 }
 
 
@@ -59,21 +65,20 @@ body {
  color: ghostwhite;
  word-spacing: 0.15em;
  text-decoration: none;
+ 
  }
 
- .main_section {
+.main_section {
    padding-top: 5rem;
    position: relative;
-    padding: 5rem;
+    /* padding: 5rem; */
+    font-size: 1.25rem;
  }
 
  .table {
   position: relative;
-  padding: 1rem;
-  position: relative;
-  padding: 1rem;
-  top: 26rem;
-  left: 23rem;
+  top: 48rem;
+  left: 44rem;
   font-size: 2rem;
 }
   
@@ -85,9 +90,9 @@ body {
   position: absolute;
   align-items: flex-end;
   text-align: center;
-  right: 38%;
+  right: 45%;
   transition: all 0.5 ease;
-  top: 47rem;
+  top: 102rem;
 }
   
 
@@ -97,18 +102,44 @@ body {
      padding: 25px;
      color: #A7E7D9;
      background-color: transparent;
-     border: 1px solid white;
+     /* border: 1px solid white; */
      transition: all 0.05 ease-in;
   
   }
 
 
-  .icons {
+.icons {
       position: relative;
-      bottom: -23rem;
+      bottom: -43rem;
       text-align: center;
   }
 
-  .main-photos {
+.main-photos {
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
   }
+
+  .about-content {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .table {
+      top: 27rem;
+      left: 37rem;
+    }
+
+    .icons {
+      bottom: -18rem;
+    }
+    
+    .main-links {
+      top: 69rem;
+      right: 39%;
+    }
+  
+  }
+  

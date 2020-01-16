@@ -5,9 +5,6 @@
   padding: 0;
 }
 
-body {
-  height:100%;
-}
 
 .main-content {
   font-size: 1em;
@@ -35,7 +32,7 @@ body {
    position: absolute;
    top: 25px;
    font-family: 'Roboto';
-   font-size: 2 em;
+   font-size: 1.25 em;
    Text-shadow:2px 5px 3px #444;
 }
 
@@ -74,14 +71,13 @@ body {
 }
 
 .default-pic {
-  margin: 0;
+  
   position: absolute;
   top: 40%;
   left: 50%;
-  margin-right: -50%;
   transform: translate(-50%, -50%);
   height: 26vh;
-  text-align: center;
+  
 }
 
 .header-button {
@@ -92,7 +88,7 @@ body {
    font-size: 1em;
    letter-spacing: 2px;
    position: absolute;
-   top: 60%;
+   top: 58%;
    left: 50%;
    margin-right: -50%;
    transform: translate(-50%, -50%);
@@ -101,9 +97,6 @@ body {
    font-family: 'Roboto';
    color: ghostwhite;
    background-color: transparent;
-   
-
-
 
   }
 
@@ -120,11 +113,8 @@ body {
 .main-links {    
   display: flex;
   position: absolute;
-  align-items: flex-end;
-  text-align: center;
-  right: 38%;
-  transition: all 0.5 ease;
-  top: 41rem;
+  right: 36%;
+  top: 53rem;
 }
   
 
@@ -133,11 +123,22 @@ body {
      font-weight: 700;
      font-size: 4em;
      padding: 25px;
-     color: #A7E7D9;
      background-color: transparent;
      border: 1px solid white;
      transition: all 0.05 ease-in;
+
+}
+
+.fa-linkedin:before {
+  color: white;
+}
+
+.fa-github:before {
+  color: white;
+}
      
+.fa-igloo:before {
+      color: white;
   }
 
 
@@ -149,20 +150,63 @@ body {
 
 /*End of Links Styling */
 
+.copyright {
+  padding-left: 0.5rem;
+}
 
-  footer {
+footer {
     font-weight: 100;
   }
-
+  
+  
   .main-footer {
     text-align:center;
+    display: flex;
+    position: absolute;
+    right: 36%;
+    bottom: 1rem;
+    color: white;
+    font-size: 1.25rem;
+    
+
   }
 
-
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
      .main-links {
       right: 15%;
       top:41rem;
     }
   }
+
+  /* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  .main-links {
+    right: 38%;
+    top: 50rem;
+  }
+
+  .main-footer {
+    right: 35%;
+  }
+
+}
 
