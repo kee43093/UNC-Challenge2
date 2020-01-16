@@ -16,6 +16,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    color: white;
     
 }
 
@@ -96,8 +97,6 @@ body {
 
 .main_content {
         padding-top: 5rem;
-        /* display: grid; */
-        /* grid-template-columns: 1fr 1fr; */
    }
 
 .project_wrapper {
@@ -131,6 +130,8 @@ body {
    
     text-align: center;
 }
+
+
 
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-width: 300px) {
