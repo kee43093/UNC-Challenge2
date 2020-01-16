@@ -88,7 +88,7 @@
    font-size: 1em;
    letter-spacing: 2px;
    position: absolute;
-   top: 58%;
+   top: 59%;
    left: 50%;
    margin-right: -50%;
    transform: translate(-50%, -50%);
@@ -121,7 +121,7 @@
 .link_item  {
      
      font-weight: 700;
-     font-size: 4em;
+     font-size: 3em;
      padding: 25px;
      background-color: transparent;
      border: 1px solid white;
