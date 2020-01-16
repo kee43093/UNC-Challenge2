@@ -79,9 +79,9 @@ body {
 
  .table {
   position: relative;
-  top: 48rem;
-  left: 44rem;
-  font-size: 2rem;
+  top: -1rem;
+  left: 30rem;
+  font-size: 1.25rem;
 }
   
  
@@ -100,7 +100,7 @@ body {
 
 .link_item  {
      font-weight: 700;
-     font-size: 4em;
+     font-size: 3em;
      padding: 25px;
      color: #A7E7D9;
      background-color: transparent;
@@ -127,12 +127,18 @@ body {
     width: 35%;
     max-width: 800px;
     margin: 0 auto 35px auto;
+
+  }
+
+  .about-content h1 {
+    text-align: center;
+    padding-bottom: 7px;
   }
 
   @media only screen and (min-width: 1024px) {
     .table {
-      top: 27rem;
-      left: 37rem;
+      top: -1rem;
+      left: 30rem;
     }
 
     .icons {
@@ -140,8 +146,8 @@ body {
     }
     
     .main-links {
-      top: 69rem;
-      right: 39%;
+      top: 76rem;
+      right: 40%;
     }
   
   }
