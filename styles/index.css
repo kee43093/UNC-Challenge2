@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Zeyada');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 *{
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
 }
 
 
@@ -100,10 +105,6 @@
 
   }
 
- .header-button:hover {
-  background-color: #A7E7D9;
-  color: red
- }
 
 /* Header Style Section End */
 
@@ -114,7 +115,7 @@
   display: flex;
   position: absolute;
   right: 40%;
-  top: 56rem;
+  top: 56.5rem;
 }
   
 
@@ -159,14 +160,11 @@ footer {
   
   .main-footer {
     text-align:center;
-    display: flex;
     position: absolute;
     right: 36%;
     bottom: 1rem;
     color: white;
     font-size: 1.25rem;
-    
-
   }
 
 @media only screen and (max-width: 600px) {
@@ -199,11 +197,11 @@ footer {
 @media only screen and (min-width: 1024px) {
   .main-links {
     right: 40%;
-    top: 52rem
+    top: 51rem
   }
 
   .main-footer {
-    right: 35%;
+    right: 41%;
   }
 
 }
