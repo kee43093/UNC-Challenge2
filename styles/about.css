@@ -134,7 +134,10 @@ body {
     max-width: 800px;
     margin: 0 auto 35px auto;
     text-align: justify;
-
+    font-size: 1.08em;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: rgb(82, 80, 80);
   }
 
  h1 {

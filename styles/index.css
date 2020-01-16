@@ -17,6 +17,7 @@ body {
   font-family: sans-serif;
   color: black;
   height: 100%;
+  position: r
 }
 
 .background-img {
@@ -113,9 +114,9 @@ body {
 
 .main-links {    
   display: flex;
-  position: absolute;
-  right: 40%;
-  top: 56.5rem;
+  width: 100%;
+  justify-content: center;
+  
 }
   
 
@@ -160,11 +161,14 @@ footer {
   
   .main-footer {
     text-align:center;
-    position: absolute;
-    right: 36%;
     bottom: 1rem;
     color: white;
     font-size: 1.25rem;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
   }
 
 @media only screen and (max-width: 600px) {
@@ -195,14 +199,14 @@ footer {
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
-  .main-links {
+  /* .main-links {
     right: 40%;
     top: 51rem
   }
 
   .main-footer {
     right: 41%;
-  }
+  } */
 
 }
 
